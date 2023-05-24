@@ -1,3 +1,40 @@
+/* Basic styling */
+:root {
+  --darkgreen: #69763D;
+  --green: #8D8741;
+  --blue: #659DBD;
+  --terra: #DAAD86;
+  --brown: #BC986A;
+  --vanilla: #FBEEC1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  flex-basis: 1000px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 12px;
+}
+
+/* standaard React CSS */
 .App {
   text-align: center;
 }
