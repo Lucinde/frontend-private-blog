@@ -4,7 +4,7 @@ import {Link, useParams} from "react-router-dom";
 import Blog from "../blog/Blog";
 
 function Blogpost() {
-    console.log(posts);
+    // console.log(posts);
     const {id} = useParams()
 
     const currentPost = posts.find((post) => {

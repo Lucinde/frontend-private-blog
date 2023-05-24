@@ -32,7 +32,7 @@ nav h4 {
 
 ul {
     list-style-type: none;
-    flex-basis: 300px;
+    flex-basis: 400px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,4 +44,8 @@ ul {
 
 .active-menu-link {
     border-bottom: 1px solid var(--vanilla);
+}
+
+nav .button-nav a {
+    color: #000;
 }
