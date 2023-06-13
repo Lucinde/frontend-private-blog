@@ -1,0 +1,6 @@
+ul.blog-list {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    list-style-type: disc;
+}
